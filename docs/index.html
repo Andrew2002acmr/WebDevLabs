@@ -5,14 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        li {
+            list-style-type: none;
+        }
+        
+        .social-vk:before{
+            content: "🪀 ";
+            list-style-position: outside;
+        }
+        
+        .social-habr:before{
+            content: "🥔 ";
+            list-style-position: outside;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Крючков Андрей 3 курс, "Прикладная информатика в экономике"</h1>
     <h2>Бакалавриат</h2>
     <a href="https://kemsu.ru/">КемГУ</a>
     <ul>
-        <li>
-            <a href="https://vk.com/andrushkalve">💎VK💎</a>
+        <li class="social-vk">
+            <a href="https://vk.com/andrushkalve">VK</a>
+        </li>
+        <li class="social-habr">
+            <a href="https://habr.com/ru/all/">habr</a>
         </li>
     </ul>
 </body>
