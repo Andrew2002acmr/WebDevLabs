@@ -1,0 +1,36 @@
+body {
+    background-color: #FFEEAF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1C6758;
+    font-size: 24px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+a {
+    color: #1C6758;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 26px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    width: 1070px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
